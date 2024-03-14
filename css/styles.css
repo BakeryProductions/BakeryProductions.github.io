@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'PERSONA'; /*a name to be used later*/
+    src: url(/fonts/Drunk\ &\ Proud.otf); /*URL to font*/
+}
+@font-face {
+    font-family: 'FAKTOS'; /*a name to be used later*/
+    src: url(/fonts/Faktos.ttf); /*URL to font*/
+}
+#myVideo
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.rotate-container
+{
+    display: flex;
+    flex-direction: column;
+    transform: rotate(-15deg);
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height:50%;
+}
+.rotate-item
+{
+    font-size: 450%;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'PERSONA';
+    color:white;
+    padding: 2% 5%;
+
+    border: 0.75vh solid rgba(255, 255, 255, 0);
+    border-radius: 50%;
+}
+.rotate-item:active
+{
+    animation-name: growBorder;
+    animation-duration: 0.5s;
+}
+.rotate-item:hover
+{
+    font-size: 500%;
+}
+h1
+{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-size: 300%;
+}
+@keyframes growBorder 
+{
+    0% 
+    {
+      padding: 0%;
+      border: 0.75vh solid white;
+    }
+    100% 
+    {
+      padding: 10%;
+      border: 0.75vh solid white;
+    }
+}
