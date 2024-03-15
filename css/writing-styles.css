@@ -115,7 +115,7 @@ header > img
         align-items: center;
         justify-content: center;
         gap: 0;
-        height: auto;
+        height: calc(80vh - 35vw);
         width: 35vw;
         bottom: 0;
     }
