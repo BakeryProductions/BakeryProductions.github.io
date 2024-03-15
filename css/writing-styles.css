@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: 'FAKTOS'; /*a name to be used later*/
-    src: url(/fonts/Faktos.ttf); /*URL to font*/
+    src: url(/fonts/Faktos.otf); /*URL to font*/
 }
 body
 {
