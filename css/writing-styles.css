@@ -134,11 +134,6 @@ header > img
         border: 0.75vh solid rgba(255, 255, 255, 0);
         border-radius: 50%;
     }
-    .item:active
-    {
-        animation-name: growBorder;
-        animation-duration: 0.5s;
-    }
     .item:hover
     {
         font-size: 30px;
