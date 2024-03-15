@@ -77,7 +77,6 @@ header > img
         height: auto;
         width: 35vw;
         bottom: 0;
-        /*bottom: calc((100vh - 42.5vw) / 2);*/
     }
     .item
     {
@@ -86,7 +85,7 @@ header > img
         text-decoration: none;
         font-family: 'PERSONA';
         color:white;
-        font-size: 22.5px;
+        font-size: 25px;
  
         padding: 2% 5%;
         width: 10vw;
@@ -101,7 +100,7 @@ header > img
     }
     .item:hover
     {
-        font-size: 25px;
+        font-size: 30px;
     }
 }
 @media (max-aspect-ratio: 16/10)
@@ -116,7 +115,7 @@ header > img
         gap: 0;
         height: calc(80vh - 35vw);
         width: 35vw;
-        bottom: 10vh;
+        bottom: 0;
     }
     .item
     {
@@ -125,10 +124,10 @@ header > img
         text-decoration: none;
         font-family: 'PERSONA';
         color:white;
-        font-size: 200%;
+        font-size: 25px;
  
         padding: 2% 5%;
-        width: fit-content;
+        width: 10vw;
         height: 100%;
         border: 0.75vh solid rgba(255, 255, 255, 0);
         border-radius: 50%;
@@ -140,7 +139,7 @@ header > img
     }
     .item:hover
     {
-        font-size: 250%;
+        font-size: 30px;
     }
 }
 @keyframes growBorder 
@@ -187,4 +186,12 @@ article > p
     font-family: 'Faktos';
     font-size: 15px;
     margin-top: 0;
+}
+h3
+{
+    font-family: 'Faktos';
+    font-size: 17.5px;
+    margin-top: 0;
+    font-weight: normal;
+    text-align: center;
 }

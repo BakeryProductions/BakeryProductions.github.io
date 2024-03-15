@@ -85,7 +85,7 @@ header > img
         text-decoration: none;
         font-family: 'PERSONA';
         color:white;
-        font-size: 20px;
+        font-size: 25px;
  
         padding: 2% 5%;
         width: 10vw;
@@ -100,7 +100,7 @@ header > img
     }
     .item:hover
     {
-        font-size: 25px;
+        font-size: 30px;
     }
 }
 @media (max-aspect-ratio: 16/10)
@@ -115,7 +115,7 @@ header > img
         gap: 0;
         height: calc(80vh - 35vw);
         width: 35vw;
-        bottom: 5vh;
+        bottom: 0;
     }
     .item
     {
@@ -124,7 +124,7 @@ header > img
         text-decoration: none;
         font-family: 'PERSONA';
         color:white;
-        font-size: 20px;
+        font-size: 25px;
  
         padding: 2% 5%;
         width: 10vw;
@@ -139,7 +139,7 @@ header > img
     }
     .item:hover
     {
-        font-size: 25px;
+        font-size: 30px;
     }
 }
 @keyframes growBorder 
@@ -167,7 +167,7 @@ main
 h2
 {
     font-family: 'PERSONA';
-    font-size: 25px;
+    font-size: 30px;
     font-weight: normal;
     text-align: center;
 }
@@ -179,7 +179,7 @@ h2 > a
 }
 h2 > a:hover
 {
-    font-size: 30px;
+    font-size: 35px;
 }
 article > p
 {
