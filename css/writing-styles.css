@@ -88,7 +88,7 @@ header > img
         text-decoration: none;
         font-family: 'PERSONA';
         color:white;
-        font-size: 22.5pt;
+        font-size: 22.5px;
  
         padding: 2% 5%;
         width: 10vw;
@@ -103,7 +103,7 @@ header > img
     }
     .item:hover
     {
-        font-size: 25pt;
+        font-size: 25px;
     }
 }
 @media (max-aspect-ratio: 16/10)
@@ -170,7 +170,7 @@ main
 h2
 {
     font-family: 'PERSONA';
-    font-size: 30pt;
+    font-size: 30px;
     font-weight: normal;
     text-align: center;
 }
@@ -182,11 +182,11 @@ h2 > a
 }
 h2 > a:hover
 {
-    font-size: 35pt;
+    font-size: 35px;
 }
 article > p
 {
     font-family: 'Faktos';
-    font-size: 15pt;
+    font-size: 15px;
     margin-top: 0;
 }
