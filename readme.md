@@ -1,3 +1,6 @@
+# About
+This site is to share, read, and play the stories and games made by Charlie Baker (Bakery Productions)!
+
 # Website Designer
 - Name: Charlie Baker
 - Production Name: Bakery Productions
