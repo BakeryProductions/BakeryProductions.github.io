@@ -1,7 +1,7 @@
 # Website Designer
-Name: Charlie Baker
-Production Name: Bakery Productions
-Institution: Dalhousie University
+- Name: Charlie Baker
+- Production Name: Bakery Productions
+- Institution: Dalhousie University
 
 # Citations
 

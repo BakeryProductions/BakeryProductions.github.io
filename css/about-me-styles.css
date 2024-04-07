@@ -171,11 +171,12 @@ h2 > a
 {
     font-style: normal;
     text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
 h2 > a:hover
 {
-    font-size: 35px;
+    font-size: 32.5px;
 }
 article > p
 {
