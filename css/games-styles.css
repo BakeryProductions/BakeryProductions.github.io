@@ -9,7 +9,7 @@
 body
 {
     margin: 0;
-    background-color: #2e51beff;
+    background-color: #425ba9;
 }
 header
 {
@@ -173,6 +173,7 @@ h2 > a
 {
     font-style: normal;
     text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
 h2 > a:hover
