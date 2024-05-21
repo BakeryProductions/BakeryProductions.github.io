@@ -19,7 +19,7 @@
 </script>
 <body>
     <header>
-        <video autoplay muted loop id="myVideo" src="background/bubble 1-1.mp4"></video>
+        <video autoplay muted loop preload="auto" id="myVideo" src="background/bubble 1-1.mp4"></video>
         <div class="corner-triangle"></div>
         <h1>ABOUT ME</h1>
         <img src="img/Bakery Productions - nobg.png" alt="Bakery Productions Logo">
@@ -30,32 +30,32 @@
         </div>
     </header>
     <main>
-        <article>
-            <h2>Who Am I?</h2>
-            <p>My name is Charlie Baker, I am an aspiring game devoloper/writer. I am currently studying computer science and creative writing at Dalhousie University in my first year.</p>
-        </article>
-        <article>
-            <h2><a href="/writing/Artist's Statement - Charlie Baker.pdf" target="_blank">Artist's Statement</a></h2>
-            <p>A statement discussing my origin, intent, journey as a writer.</p>
-        </article>
-        <article>
-            <h2><a href="" target="_blank">LinkedIn</a></h2>
-            <p>Follow me for updates on the professional side of my creative process. I will also be posting updates when I make new stories and games!</p>
-        </article>
-        <article>
-            <h2>My greatest inspirations</h2>
-                <h3>1. <i>Persona 5 Royal</i></h3>
-                <p>Persona 5 is a very special game to me. It is wonderful in practically every regard (at least in my opinion). I don't think any piece of media has connected with me on the same level that this game did. It taught me the power that a game can have and how much they are able to impact someone. I hope to one day make something that is able to impact someone like this game impacted me. It is one of the reasons I became a writer and game designer.</p>
-                <h3>2. <i>Code Geass: Lelouch of the Rebellion</i></h3>
-                <p>Code Geass is a rich show that demonstrates deep themes as well as a fun, action packed narrative. Through analyzing this show I realized how much I enjoy deconstructing what makes a story tick. This show is a great example of something which is both entertaining and thematic. The characterization of the protagonist Lelouch is some of the greatest I have seen, it is certainly an inspiration which I try to emulate when writing characters.</p>
-                <h3>3. <i>Persona 3 Reload</i></h3>
-                <p>I feel quite similarly to Persona 5 with this game. The way the game is setup as switching between genres (dungeon crawler and visual novel) creates a feeling of always being engaged in what is happening as the player can always switch when they begin to get bored. In addition to this, the gameplay is refined and each confidant you meet has a detailed and emotional story.</p>
-                <h3>4. <i>Attack On Titan (Show)</i></h3>
-                <p>"The world is a cruel place but it's also very beautiful". Attack on Titan paints a picture of a beautiful and ugly world. The story takes amazing and daring turns, taking characters you grow to love and making them do horrible things. It is an insight into the horrible things humanity can justify doing to each other. It also has stunning animation, fights, acting, and music to accompany its meaningful story.</p>
-                <h3>5. <i>Wheel of Time - Robert Jordan</i></h3>
-                <p>The Wheel of Time is a monstrously large series (14 books long). Despite this, Jordan uses this length to its full limit. The character work over such a period of time is phenominal, the characters you meet at the begining of the story completely change by the end in a realistic manner. Beyond the characterization the style of the story and the themes of cyclicality are wonderfully executed. The Wheel of Time is a first class example of how to construct a fantasy world.</p>
-            </p>
-        </article>
+        <div class="scroll-box">
+            <article>
+                <div class="left">
+                    <h2>Who Am I?</h2>
+                </div>
+                <div class="right">
+                    <p>My name is Charlie Baker, I am an aspiring game devoloper/writer. I am currently studying computer science and creative writing at Dalhousie University in my first year.</p>
+                </div>
+            </article>
+            <article>
+                <div class="left">
+                    <h2><a href="/writing/Artist's Statement - Charlie Baker.pdf" target="_blank">Artist's Statement</a></h2>
+                </div>
+                <div class="right">
+                    <p>A statement discussing my origin, intent, and journey as a writer.</p>
+                </div>
+                </article>
+            <article>
+                <div class="left">
+                    <h2><a href="" target="_blank">LinkedIn</a></h2>
+                </div>
+                <div class = "right">
+                    <p>Follow me for updates on the professional side of my creative process. I will also be posting updates when I make new stories and games!</p>
+                </div>
+            </article>
+        </div>
     </main>
 </body>
 </html>

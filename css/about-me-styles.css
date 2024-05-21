@@ -11,61 +11,61 @@ body
     margin: 0;
     background-color: #425ba9;
 }
-header
-{
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 35vw;
-    height: 100vh;
-}
 #myVideo
 {
     position: fixed;
-    z-index: 1;
-    right: 0;
-    top: 0;
-    width: 30vw;
-    height: 30vw;
-    clip-path: polygon(0 0, 100% 0, 100% 100%);
-}
-.corner-triangle
-{
-    width: 35vw;
-    height: 35vw;
-    position: fixed;
     z-index: 0;
-    right: 0;
+    left: 0;
     top: 0;
-    background-color: white;
-    clip-path: polygon(0 0, 100% 0, 100% 100%);
-}
-h1
-{
-    position: fixed;
-    z-index: 1;
-    right: 0;
-    padding: 0;
-    transform: rotate(45deg);
-    margin-top: 7.5%;
-    margin-right: 3.75%;
-
-    font-size: 5vw;
-    text-align: center;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: none;
-    font-family: 'PERSONA';
-    color:white;
-}
-header > img
-{
-    width: 30vw;
-    position: fixed;
-    top: 15vw;
+    min-width: 100%;
+    min-height: 100%;
 }
 @media (min-aspect-ratio: 16/10)
 {
+    .corner-triangle
+    {
+        width: 25vw;
+        height: 25vw;
+        position: fixed;
+        z-index: 0;
+        right: 0;
+        top: 0;
+        background-color: #425ba9;
+        clip-path: polygon(100% 0, 0 0, 100% 100%);
+    }
+    h1
+    {
+        position: fixed;
+        z-index: 1;
+        right: 0;
+        padding: 0;
+        transform: rotate(45deg);
+        margin-top: 5.5%;
+        margin-left: 1.75%;
+    
+        font-size: 5vw;
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+        font-family: 'PERSONA';
+        color:white;
+    }
+    header
+    {
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 35vw;
+        height: 100vh;
+    }
+    header > img
+    {
+        width: 30vw;
+        position: fixed;
+        top: 30vh;
+        right: 4vw;
+    }
     .navigation
     {
         position: fixed;
@@ -102,21 +102,155 @@ header > img
     {
         font-size: 30px;
     }
+
+    main
+    {
+        margin: 2.5vw 0 0 2.5vw;
+        width: 62.5vw;
+        color:white;
+    }
+    h2
+    {
+        font-family: 'PERSONA';
+        font-size: 20px;
+        font-weight: normal;
+        text-align: center;
+        margin: auto;
+    }
+    h2 > a
+    {
+        font-style: normal;
+        text-decoration: none;
+        text-decoration: underline;
+        color: white;
+    }
+    h2 > a:hover
+    {
+        font-size: 22px;
+    }
+    h3
+    {
+        font-family: 'Faktos';
+        font-size: 17.5px;
+        margin-top: 0;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .scroll-box
+    {
+        height: 100vh;
+        margin-top: -15vh;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        width: 62.5vw;
+        
+        position: fixed;
+        transform: rotate(-10deg);
+        overflow: auto;
+        color: white;
+        scrollbar-width: none;
+    }
+    .scroll-box:after 
+    {
+        content: "";
+        display: block;
+        height: 5vh;
+        width: 100%;
+    }
+    .scroll-box::-webkit-scrollbar 
+    {
+        display: none; /* for Chrome, Safari, and Opera */
+    }
+    .scroll-box > article
+    {
+        transform: rotate(10deg);
+        clip-path: polygon(0 0, 95% 0, 100% 100%, 5% 100%);
+        width: 85%;
+        height: 20vh;
+        margin: 5vh auto;
+        background-color: rgb(66, 91, 169, 0.75);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+        gap: 2.5%;
+    }
+    article p
+    {
+        font-family: 'Faktos';
+        font-size: 13.5px;
+        margin: 0.5vh;
+    }
+    div.left
+    {
+        margin: auto;
+        margin-left: 30%;
+    }
+    div.center
+    {
+        margin: auto;
+    }
+    div.right
+    {
+        margin: auto;
+        margin-right: 20%;
+    }
 }
 @media (max-aspect-ratio: 16/10)
 {
+    .corner-triangle
+    {
+        width: 30vw;
+        height: 30vw;
+        position: fixed;
+        z-index: 0;
+        right: 0;
+        top: 0;
+        background-color: #425ba9;
+        clip-path: polygon(100% 0, 0 0, 100% 100%);
+    }
+    h1
+    {
+        position: fixed;
+        z-index: 1;
+        right: 0;
+        padding: 0;
+        transform: rotate(45deg);
+        margin-top: 7.5%;
+        margin-left: 1.75%;
+    
+        font-size: 6vw;
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+        font-family: 'PERSONA';
+        color:white;
+    }
+    header
+    {
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 100vw;
+        height: 25vw;
+    }
+    header > img
+    {
+        display: none;
+    }
     .navigation
     {
-        margin-left: -5vw;
         position: fixed;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         gap: 0;
-        height: calc(80vh - 35vw);
-        width: 35vw;
-        bottom: 0;
+        height: 20vw;
+        width: 75vw;
+        top: 0;
+        margin-right: 25vw;
     }
     .item
     {
@@ -126,16 +260,117 @@ header > img
         font-family: 'PERSONA';
         color:white;
         font-size: 25px;
- 
-        padding: 2% 5%;
-        width: 10vw;
-        height: 100%;
-        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-        -webkit-focus-ring-color: rgba(255, 255, 255, 0);
+        width: 25vw;
+        height: fit-content;
+        top: 50%;
     }
     .item:hover
     {
-        font-size: 30px;
+        font-size: 27.5px;
+    }
+
+    main
+    {
+        margin-top: 25vw;
+        width: 100vw;
+        color:white;
+    }
+    h2
+    {
+        font-family: 'PERSONA';
+        width: 100%;
+        font-size: 18px;
+        font-weight: normal;
+        text-align: center;
+        margin: auto;
+    }
+    h2 > a
+    {
+        font-style: normal;
+        text-decoration: none;
+        text-decoration: underline;
+        color: white;
+    }
+    h2 > a:hover
+    {
+        font-size: 19px;
+    }
+    h3
+    {
+        font-family: 'Faktos';
+        font-size: 17.5px;
+        margin-top: 0;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .scroll-box
+    {
+        height: 100vh;
+        width: 100vw;
+        top: 17vw;
+        clip-path: polygon(0 0, 100% 9.25vw, 100% 100%, 0% 100%);
+
+        position: fixed;
+        transform: rotate(-5deg);
+        overflow: auto;
+        color: white;
+        scrollbar-width: none;
+    }
+    .scroll-box:before 
+    {
+        content: "";
+        display: block;
+        height: 5vh;
+        width: 100%;
+    }
+    .scroll-box:after 
+    {
+        content: "";
+        display: block;
+        height: 20vh;
+        width: 100%;
+    }
+    .scroll-box::-webkit-scrollbar 
+    {
+        display: none; /* for Chrome, Safari, and Opera */
+    }
+    .scroll-box > article
+    {
+        transform: rotate(5deg);
+        clip-path: polygon(0 0, 95% 0, 100% 100%, 5% 100%);
+        width: 90%;
+        height: fit-content;
+        min-height: 20vh;
+        padding: 3vh;
+        margin: 5vh auto;
+        margin-right: -1%;
+        
+        background-color: rgb(66, 91, 169, 0.75);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+        gap: 5%;
+    }
+    article p
+    {
+        font-family: 'Faktos';
+        font-size: 13px;
+        margin: auto;
+    }
+    div.left
+    {
+        margin: auto;
+        margin-left: 20%;
+    }
+    div.center
+    {
+        margin: auto;
+    }
+    div.right
+    {
+        margin: auto;
+        margin-right: 25%;
     }
 }
 @keyframes growBorder 
@@ -154,41 +389,4 @@ header > img
     }
 }
 
-main
-{
-    margin: 2.5vw 0 0 2.5vw;
-    width: 62.5vw;
-    color:white;
-}
-h2
-{
-    font-family: 'PERSONA';
-    font-size: 30px;
-    font-weight: normal;
-    text-align: center;
-}
-h2 > a
-{
-    font-style: normal;
-    text-decoration: none;
-    text-decoration: underline;
-    color: white;
-}
-h2 > a:hover
-{
-    font-size: 32.5px;
-}
-article > p
-{
-    font-family: 'Faktos';
-    font-size: 15px;
-    margin-top: 0;
-}
-h3
-{
-    font-family: 'Faktos';
-    font-size: 17.5px;
-    margin-top: 0;
-    font-weight: normal;
-    text-align: center;
-}
+
