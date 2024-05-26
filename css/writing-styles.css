@@ -10,6 +10,7 @@ body
 {
     margin: 0;
     background-color: #425ba9;
+    overflow-x: hidden;
 }
 #myVideo
 {
